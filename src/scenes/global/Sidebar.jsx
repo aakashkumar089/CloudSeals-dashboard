@@ -147,7 +147,11 @@ const Sidebar = () => {
             /> */}
 
            
-            <SubMenu title="Nebulla Cost Optimization" icon={<InsightsOutlinedIcon />}>
+            <SubMenu title="Nebulla Cost Optimization" icon={<InsightsOutlinedIcon />}
+             selected={selected}
+             setSelected={setSelected}
+             color={colors.grey[300]}
+             >
               <Item
                 title="View"
                 to="/costOptimize"
@@ -157,7 +161,10 @@ const Sidebar = () => {
               />
 
             </SubMenu>
-            <SubMenu title="AIOps" icon={<AndroidIcon />}>
+            <SubMenu title="AIOps" icon={<AndroidIcon />}
+             selected={selected}
+             setSelected={setSelected}
+            >
               <Item
                 title="Monitoring"
                 to="/line"
