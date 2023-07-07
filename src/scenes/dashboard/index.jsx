@@ -165,7 +165,7 @@ const Dashboard = () => {
             <LineChart isDashboard={true} />
           </Box>
         </Box> */}
-        <Box
+        {/* <Box
           gridColumn="span 4"
           gridRow="span 2"
           backgroundColor={colors.primary[400]}
@@ -214,7 +214,7 @@ const Dashboard = () => {
               </Box>
             </Box>
           ))}
-        </Box>
+        </Box> */}
 
         {/* ROW 3 */}
         <Box

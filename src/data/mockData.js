@@ -207,6 +207,8 @@ export const mockDataInvoices = [
     cost: "21.24",
     phone: "(665)121-5454",
     date: "03/12/2022",
+    
+
   },
   {
     id: 2,
@@ -260,6 +262,91 @@ export const mockDataInvoices = [
     id: 8,
     name: "Rossini Frances",
     email: "rossinifrances@gmail.com",
+    cost: "21.24",
+    phone: "(222)444-5555",
+    date: "05/02/2021",
+  },
+];
+
+
+export const mockDataInstances = [
+  {
+    id: 1,
+    name: "EC2 Instance",
+    accountType: "pay-as-you-go",
+    cost: "21.24",
+    instance:"Standard-F4",
+    phone: "(665)121-5454",
+    date: "03/12/2022",
+    
+
+  },
+  {
+    id: 2,
+    name: "Ubantu Web-02",
+    accountType: "pay-as-you-go",
+    instance:"Standard-D4",
+
+    cost: "1.24",
+    phone: "(421)314-2288",
+    date: "06/15/2021",
+  },
+  {
+    id: 3,
+    name: "Instance-GCP-01",
+    accountType: "pay-as-you-go",
+    instance:"e2-instance",
+
+    cost: "11.24",
+    phone: "(422)982-6739",
+    date: "05/02/2022",
+  },
+  {
+    id: 4,
+    name: "PT-Same-VM123",
+    accountType: "pay-as-you-go",
+    instance:"standard-F2",
+
+    cost: "80.55",
+    phone: "(921)425-6742",
+    date: "03/21/2022",
+  },
+  {
+    id: 5,
+    name: "aks-agentpool-14152",
+    accountType: "pay-as-you-go",
+    instance:"standard-DS2",
+
+    cost: "1.24",
+    phone: "(421)445-1189",
+    date: "01/12/2021",
+  },
+  {
+    id: 6,
+    name: "instance-gcp-564",
+    accountType: "pay-as-you-go",
+    instance:"standard-DS2",
+
+    cost: "63.12",
+    phone: "(232)545-6483",
+    date: "11/02/2022",
+  },
+  {
+    id: 7,
+    name: "instance-agenetpool-52554",
+    accountType: "pay-as-you-go",
+    instance:"standard-DS2",
+
+    cost: "52.42",
+    phone: "(543)124-0123",
+    date: "02/11/2022",
+  },
+  {
+    id: 8,
+    name: "Instance-AZ-ec2-med",
+    accountType: "pay-as-you-go",
+    instance:"standard-DS2",
+
     cost: "21.24",
     phone: "(222)444-5555",
     date: "05/02/2021",

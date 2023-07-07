@@ -142,6 +142,7 @@ export const themeSettings = (mode) => {
             },
             background: {
               default: colors.primary[500],
+              
             },
           }
         : {

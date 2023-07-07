@@ -18,6 +18,7 @@ import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
 import InsightsOutlinedIcon from "@mui/icons-material/InsightsOutlined";
 import AndroidIcon from '@mui/icons-material/Android';
+import FilterDramaIcon from '@mui/icons-material/FilterDrama';
 
 const Item = ({ title, to, icon, selected, setSelected }) => {
   const theme = useTheme();
@@ -174,6 +175,14 @@ const Sidebar = () => {
               />
 
             </SubMenu>
+
+            <Item
+                title="Cloud Optimization"
+                to="/cloudOtimize"
+                icon={<FilterDramaIcon />}
+                selected={selected}
+                setSelected={setSelected}
+              />
 
             {/*             
             <Item

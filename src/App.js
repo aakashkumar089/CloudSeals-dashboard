@@ -16,6 +16,7 @@ import { CssBaseline, ThemeProvider } from "@mui/material";
 import { ColorModeContext, useMode } from "./theme";
 import Calendar from "./scenes/calendar/calendar";
 import CostOpt from "./scenes/costOptimize";
+import CloudOpt from "./scenes/CloudOptimize";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -39,6 +40,8 @@ function App() {
               <Route path="/pie" element={<Pie />} />
               <Route path="/line" element={<Line />} />
               <Route path="/costOptimize" element={<CostOpt />} />
+              <Route path="/cloudOtimize" element={<CloudOpt />} />
+
 
               <Route path="/faq" element={<FAQ />} />
               <Route path="/calendar" element={<Calendar />} />
