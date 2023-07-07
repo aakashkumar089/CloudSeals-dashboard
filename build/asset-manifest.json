@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CloudSeals-dashboard/static/css/main.b9d61bfa.css",
+    "main.js": "/CloudSeals-dashboard/static/js/main.2c8f0525.js",
+    "index.html": "/CloudSeals-dashboard/index.html",
+    "main.b9d61bfa.css.map": "/CloudSeals-dashboard/static/css/main.b9d61bfa.css.map",
+    "main.2c8f0525.js.map": "/CloudSeals-dashboard/static/js/main.2c8f0525.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9d61bfa.css",
+    "static/js/main.2c8f0525.js"
+  ]
+}
